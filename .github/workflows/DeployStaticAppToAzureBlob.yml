@@ -19,7 +19,7 @@ jobs:
     - name: Build check
       run: | 
        npm run build
-       npm start
+       
           
     - name: Upload to blob storage
       uses: azure/CLI@v1
