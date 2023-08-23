@@ -26,4 +26,4 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name discerndevstorageaccount -d '$web' -s .
+            az storage blob upload-batch --account-name discerndevstorageaccount -d '$web' --overwrite -s .
